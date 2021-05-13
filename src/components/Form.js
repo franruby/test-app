@@ -20,7 +20,7 @@ class Form extends React.Component {
         }
         else{
             return (
-                <div></div>
+                <div style="display: none"></div>
             );
         }
     };
