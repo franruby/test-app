@@ -8,7 +8,7 @@ class Tasks extends React.Component {
 
     render() {
         return (
-            <p>Esto es Tasks</p>
+            <h3>Esto es Tasks</h3>
         );
     };
 
