@@ -20,10 +20,7 @@ class Task extends React.Component {
         return auxVar
         
     }
-
     
-
-
     render(){
 
         const { task } = this.props;
@@ -33,9 +30,8 @@ class Task extends React.Component {
             // console.log(task.id);
         }
 
-
         return (
-            <div className="task-container">
+            <div className="task-container animate__animated animate__backInUp">
                 {/* <p>{this.props.task.id}</p> */}
                 <h3 className="task-title">{task.title}</h3>
                 <p className="task-description">{task.description}</p>

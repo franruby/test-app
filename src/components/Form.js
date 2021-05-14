@@ -34,7 +34,7 @@ class Form extends React.Component {
         if (this.props.showFormVar) {
             return (
                 <div
-                className="task-form animate__backInUp">
+                className="task-form animate__animated animate__bounceInUp">
                     <div className="close-container">
                         <i className='bx bx-plus bx-sm close-form-icon' onClick={this.props.hideForm}></i>
                     </div>
